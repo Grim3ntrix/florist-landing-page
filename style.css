@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', Arial;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+/* first page */
+
+.first-page {
+    padding: 16px 125px;
+    padding-bottom: 125px;
+}
+
+.first-page {
+    background: linear-gradient(to top, #0f172a, #34203e,  #e05bad);
+}
+
+.footer {
+    background-color:#0f172a;
+}
+
+.main { 
+    flex: 1;
+}
+
+.hero-container {
+    display: flex;
+    height: auto;
+    gap: 40px;
+}
+
+.hero {
+    width: 480px;
+    height: auto;
+}
+
+.image {
+    width: 520px;
+    height: auto;
+}
+
+img {
+    height: 290px;
+    width: 520px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.footer div {
+    margin: 3px 0;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.signup-btn-one {
+    background: linear-gradient(135deg, #ff6f61, #ff9a8b);
+    border-radius: 8px;
+    color: white;
+    padding: 7px 28px;
+    border-color: transparent;
+    font-weight: 600;
+    font-size: medium;
+}
+
+/* second page */
+
+
+
+/* typography */
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    line-height: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-secondary-text, a {
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+.hero-secondary-text {
+    margin: 0;
+    margin: 10px 0;
+    width: 97%;
+}
+
+.logo, .footer {
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer a {
+    font-size: 16px;
+}
