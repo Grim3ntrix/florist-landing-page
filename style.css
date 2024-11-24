@@ -16,9 +16,20 @@ body {
 
 /* first page */
 
-.first-page {
+.first-page, .third-page {
     padding: 16px 125px;
+}
+
+/* .first-page, .second-page, .third-page, .fourth-page, .hero-container, .info-container, .testimonial-container , .action-container {
+     border: 2px solid gray; 
+} */
+
+.first-page {
     padding-bottom: 125px;
+}
+
+.fourth-page {
+    padding: 95px 125px;
 }
 
 .first-page {
@@ -46,7 +57,6 @@ body {
 }
 
 .image, img {
-    /* border: 2px solid gray; */
     width: 515px;
     height: 290px;
     border-radius: 5px;
@@ -78,7 +88,7 @@ ul {
     text-decoration: none;
 }
 
-.signup-btn-one {
+.shop-now-btn {
     background: linear-gradient(135deg, #ff6f61, #ff9a8b);
     border-radius: 8px;
     color: white;
@@ -130,7 +140,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 95px;
+    padding-bottom: 95px;
 }
 
 .info-container {
@@ -158,13 +168,13 @@ ul {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin: 4px 0;
 }
 
 .info .text {
-    /* border: 1px solid gray; */
     width: 175px;
     max-width: 600px; 
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
 }
 
 .info .text p {
@@ -173,7 +183,6 @@ ul {
     text-align: center;
     margin: 0;
     padding: 8px;
-    line-height: 1.6;
 }
 
 p {
@@ -192,7 +201,6 @@ p {
 }
 
 .testimonial-container {
-    /* border: 2px solid gray; */
     width: 790px;
     margin: 48px 0;
     padding: 40px;
@@ -203,6 +211,7 @@ p {
     color: #1f2937;
     font-style: italic;
     hyphens: none;
+    font-weight: lighter;
 }
 
 .author {
@@ -210,4 +219,56 @@ p {
     font-size: 25px;
     margin-right: 15px;
     font-weight: bold;
+}
+
+/* fourth page */
+
+.action-container {
+    background: linear-gradient(135deg, #ff6f61, #ff9a8b);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 88px; 
+    gap: 48px;
+    text-wrap: wrap;
+    margin: 0;
+}
+
+/* fourth page - typography */
+
+.action-text, button {
+    color: white;
+}
+
+.action-text {
+    line-height: 0.1;
+}
+
+.action-text-header {
+    font-size: 25px;
+    color: white;
+}
+
+.action-subtext {
+    font-size: 18px;
+    color: #f9f9fc;
+}
+
+.sign-up-btn {
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sign-up-btn:hover {
+    background-color: white;
+    color: #ff6f61;
 }
